@@ -12,7 +12,7 @@ class Rlogd < Formula
 
   def install
     system 'sh autogen.sh'
-    system './configure'
+    system './configure', "--prefix=#{prefix}"
     system 'make'
     system 'make', 'install'
   end
