@@ -6,6 +6,7 @@ class Rlogd < Formula
   sha256 'ca7dd203065d19b2b64d1bd688a10ac188afd9c94363d56fa0441d26c6609b84'
 
   depends_on :autoconf
+  depends_on :libtool
   depends_on 'libev'
 
   def install
