@@ -7,9 +7,9 @@ class Rlogd < Formula
 
   head 'https://github.com/pandax381/rlogd.git'
 
-  depends_on :autoconf
-  depends_on :automake
-  depends_on :libtool
+  depends_on 'autoconf'
+  depends_on 'automake'
+  depends_on 'libtool'
   depends_on 'libev'
 
   def install
